@@ -1,0 +1,45 @@
+body {
+    background: #73C8A9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff; /* Color del contenedor */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    color: #343a40; /* Color del texto del título */
+}
+
+h3 {
+    color: #007bff; /* Color del texto del subtítulo */
+}
+
+.list-group-item {
+    background-color: #f8f9fa; /* Color del fondo de los elementos de la lista */
+    border: none; /* Sin bordes */
+    border-radius: 0;
+}
+
+.list-group-item a {
+    color: #343a40; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color del botón */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+p {
+    color: #6c757d; /* Color del texto del párrafo */
+}
